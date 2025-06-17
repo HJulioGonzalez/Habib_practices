@@ -104,7 +104,6 @@
     line-height: 1.2;
   }
   .author__picture-edit-icon {
-    border: 1px solid red;
     align-self: center;
     position: absolute;
     top: 0;
@@ -119,7 +118,7 @@
     display: flex;
     width: 282px;
     height: 50px;
-    background: url(../images/add_Button_WHITE320.svg);
+    background: url(../images/add_Button_WHITE.svg);
     margin: 0;
     background-repeat: no-repeat;
   }

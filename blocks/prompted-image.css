@@ -67,9 +67,20 @@
   }
 }
 
+@media screen and (min-width: 541px) and (max-width: 725px) {
+  .prompted-image__container {
+    width: 80%;
+  }
+
+  .prompted-image__container-picture {
+    border: 1px solid red;
+    width: 100%;
+  }
+}
+
 @media screen and (min-width: 321px) and (max-width: 540px) {
   .prompted-image__container {
-    width: 88.125%;
+    width: 80%;
   }
 
   .prompted-image__container-closebuttton {
@@ -77,9 +88,13 @@
     right: 2.23px;
     width: 36.77px;
     height: 36.77px;
-    background: url(../images/close_button_WHITE320.svg);
+    background: url(../images/close_button_WHITE.svg);
     background-repeat: no-repeat;
     background-position: center;
+  }
+
+  .prompted-image__container-picture {
+    border: 1px solid red;
   }
 }
 
