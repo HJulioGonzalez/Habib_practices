@@ -79,9 +79,19 @@
 }
 
 @media screen and (min-width: 494px) and (max-width: 845px) {
+  .author {
+    position: relative;
+  }
+
   .author__info-name {
     font-size: 30px;
     line-height: 1.2;
+  }
+
+  .author__picture-edit-icon {
+    align-self: center;
+    position: absolute;
+    top: 0;
   }
 }
 
