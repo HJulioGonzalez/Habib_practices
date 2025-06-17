@@ -58,12 +58,12 @@
 
 @media screen and (min-width: 1281px) {
   .prompted-image {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
-    transform: translateX(-50%);
+    height: 100vh;
+    overflow-y: auto;
   }
 }
 

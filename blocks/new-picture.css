@@ -112,16 +112,16 @@
   background-color: rgba(0, 0, 0, 0.8);
 }
 
-@media screen and (min-width: 1281px) {
+/* @media screen and (min-width: 1281px) {
   .new-picture {
-    width: 100%;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
-    left: 50%;
-    transform: translateX(-50%);
+    width: 100%;
+    height: 100vh;
+    overflow-y: scroll;
   }
-}
+} */
 
 @media screen and (min-width: 321px) and (max-width: 540px) {
   .new-picture__container {
