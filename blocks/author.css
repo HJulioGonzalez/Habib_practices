@@ -118,11 +118,10 @@
     display: flex;
     width: 282px;
     height: 50px;
-    background: url(../images/facebook.svg);
+    background: url(../images/Add_Button_WHITE.png);
     margin: 0;
     background-repeat: no-repeat;
     align-self: center;
-    border: 1px solid red;
   }
 
   .author__add-button_resolution_725:hover {
