@@ -121,6 +121,7 @@
     background: url(../images/add_Button_WHITE.svg);
     margin: 0;
     background-repeat: no-repeat;
+    align-self: center;
   }
 
   .author__add-button_resolution_725:hover {

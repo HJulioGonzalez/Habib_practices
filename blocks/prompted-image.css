@@ -73,7 +73,6 @@
   }
 
   .prompted-image__container-picture {
-    border: 1px solid red;
     width: 100%;
   }
 }
@@ -91,10 +90,6 @@
     background: url(../images/close_button_WHITE.svg);
     background-repeat: no-repeat;
     background-position: center;
-  }
-
-  .prompted-image__container-picture {
-    border: 1px solid red;
   }
 }
 
